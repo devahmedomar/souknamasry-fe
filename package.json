@@ -9,7 +9,7 @@
     "test": "ng test",
     "serve:ssr:souknamasry-fe": "node dist/souknamasry-fe/server/server.mjs",
     "build:prod": "ng build --configuration=production",
-    "build:dev": "ng build --configuration=dev"
+    "build:dev": "ng build --configuration=development"
   },
   "private": true,
   "dependencies": {
