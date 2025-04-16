@@ -1,0 +1,101 @@
+.my-navbar {
+  background-color: #cc8976;
+}
+.my-navbar img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.my-padding {
+  padding-inline: 90px;
+}
+.my-section .nav-link {
+  color: white;
+  cursor: pointer;
+}
+.pi-search,
+.pi-shopping-cart {
+  font-size: 1.2rem;
+}
+.my-btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+.my-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 320px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+    align-items: center;
+  }
+  .navbar-nav li {
+    padding-bottom: 1px;
+  }
+  .navbar-toggler {
+    transform: translate(20px, 5px);
+    -webkit-transform: translate(20px, 5px);
+    -moz-transform: translate(20px, 5px);
+    -ms-transform: translate(20px, 5px);
+    -o-transform: translate(20px, 5px);
+  }
+  .my-navbar img {
+    margin-left: 0px;
+  }
+  .my-padding {
+    padding-inline: 40px;
+  }
+}
+@media (min-width: 768px) {
+  navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+    align-items: center;
+  }
+  .navbar-nav li {
+    padding-bottom: 10px;
+  }
+  .navbar-toggler {
+    transform: translate(20px, 5px);
+    -webkit-transform: translate(20px, 5px);
+    -moz-transform: translate(20px, 5px);
+    -ms-transform: translate(20px, 5px);
+    -o-transform: translate(20px, 5px);
+  }
+  .my-navbar img {
+    margin-left: 0px;
+  }
+  .my-padding {
+    padding-inline: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+  }
+}
